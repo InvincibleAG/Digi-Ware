@@ -1,0 +1,143 @@
+$date
+	Sun Jan 14 20:41:22 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module calc_tb $end
+$var wire 8 ! total [7:0] $end
+$var reg 1 " en $end
+$var reg 4 # in1 [3:0] $end
+$var reg 4 $ in2 [3:0] $end
+$var reg 2 % ops [1:0] $end
+$scope module uut $end
+$var wire 1 " en $end
+$var wire 4 & in1 [3:0] $end
+$var wire 4 ' in2 [3:0] $end
+$var wire 2 ( ops [1:0] $end
+$var wire 8 ) sub_out [7:0] $end
+$var wire 8 * mul_out [7:0] $end
+$var wire 8 + div_out [7:0] $end
+$var wire 8 , add_out [7:0] $end
+$var reg 4 - add_inp1 [3:0] $end
+$var reg 4 . add_inp2 [3:0] $end
+$var reg 4 / div_inp1 [3:0] $end
+$var reg 4 0 div_inp2 [3:0] $end
+$var reg 4 1 mul_inp1 [3:0] $end
+$var reg 4 2 mul_inp2 [3:0] $end
+$var reg 1 3 state $end
+$var reg 4 4 sub_inp1 [3:0] $end
+$var reg 4 5 sub_inp2 [3:0] $end
+$var reg 8 6 total [7:0] $end
+$scope module adder $end
+$var wire 4 7 in1 [3:0] $end
+$var wire 4 8 in2 [3:0] $end
+$var wire 8 9 out [7:0] $end
+$upscope $end
+$scope module divide $end
+$var wire 4 : in1 [3:0] $end
+$var wire 4 ; in2 [3:0] $end
+$var reg 8 < out [7:0] $end
+$upscope $end
+$scope module mult $end
+$var wire 4 = in1 [3:0] $end
+$var wire 4 > in2 [3:0] $end
+$var wire 8 ? out [7:0] $end
+$upscope $end
+$scope module subtract $end
+$var wire 4 @ in1 [3:0] $end
+$var wire 4 A in2 [3:0] $end
+$var reg 8 B out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+b1100 9
+b111 8
+b101 7
+b1100 6
+bx 5
+bx 4
+13
+bx 2
+bx 1
+bx 0
+bx /
+b111 .
+b101 -
+b1100 ,
+bx +
+bx *
+bx )
+b0 (
+b111 '
+b101 &
+b0 %
+b111 $
+b101 #
+1"
+b1100 !
+$end
+#10
+b101 )
+b101 B
+b101 !
+b101 6
+b11 5
+b11 A
+b1000 4
+b1000 @
+b1 %
+b1 (
+b11 $
+b11 '
+b1000 #
+b1000 &
+#20
+b11000 !
+b11000 6
+b11000 *
+b11000 ?
+b110 2
+b110 >
+b100 1
+b100 =
+b10 %
+b10 (
+b110 $
+b110 '
+b100 #
+b100 &
+#30
+b100 +
+b100 <
+b100 !
+b100 6
+b11 0
+b11 ;
+b1100 /
+b1100 :
+b11 %
+b11 (
+b11 $
+b11 '
+b1100 #
+b1100 &
+#40
