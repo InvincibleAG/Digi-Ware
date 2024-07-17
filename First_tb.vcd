@@ -1,0 +1,54 @@
+$date
+	Sun Dec 17 17:25:50 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module First_tb $end
+$var wire 1 ! B $end
+$var reg 1 " A $end
+$var reg 1 # clk $end
+$var integer 32 $ i [31:0] $end
+$scope module DFF $end
+$var wire 1 " A $end
+$var wire 1 ! B $end
+$var wire 1 # clk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 $
+0#
+x"
+x!
+$end
+#5
+b10 $
+1#
+#10
+b11 $
+0#
+#15
+b100 $
+1#
+#20
+1!
+1"
+b101 $
+0#
+#25
+0!
+0"
+#35
+1!
+1"
+#55
+0!
+0"

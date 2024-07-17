@@ -1,0 +1,149 @@
+$date
+	Thu Dec 21 17:28:54 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module decoder_tb $end
+$var wire 8 ! out [7:0] $end
+$var reg 3 " in [2:0] $end
+$scope module dcd $end
+$var wire 3 # in [2:0] $end
+$var wire 8 $ y [7:0] $end
+$scope module w0 $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 ' c $end
+$var wire 1 ( y $end
+$upscope $end
+$scope module w1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 + c $end
+$var wire 1 , y $end
+$upscope $end
+$scope module w2 $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 / c $end
+$var wire 1 0 y $end
+$upscope $end
+$scope module w3 $end
+$var wire 1 1 a $end
+$var wire 1 2 b $end
+$var wire 1 3 c $end
+$var wire 1 4 y $end
+$upscope $end
+$scope module w4 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 7 c $end
+$var wire 1 8 y $end
+$upscope $end
+$scope module w5 $end
+$var wire 1 9 a $end
+$var wire 1 : b $end
+$var wire 1 ; c $end
+$var wire 1 < y $end
+$upscope $end
+$scope module w6 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 ? c $end
+$var wire 1 @ y $end
+$upscope $end
+$scope module w7 $end
+$var wire 1 A a $end
+$var wire 1 B b $end
+$var wire 1 C c $end
+$var wire 1 D y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0D
+0C
+1B
+0A
+0@
+1?
+1>
+0=
+0<
+0;
+0:
+09
+08
+17
+06
+05
+04
+03
+12
+11
+10
+1/
+1.
+1-
+0,
+0+
+0*
+1)
+0(
+0'
+1&
+0%
+b100 $
+b10 #
+b10 "
+b100 !
+$end
+#5
+00
+b1000000 !
+b1000000 $
+1@
+0)
+0-
+01
+1%
+15
+19
+1=
+1A
+b110 "
+b110 #
+#10
+1<
+0@
+0(
+1*
+0/
+16
+07
+1:
+0?
+b100000 !
+b100000 $
+0D
+0&
+1'
+1+
+0.
+02
+13
+1;
+0>
+0B
+1C
+b101 "
+b101 #
+#25

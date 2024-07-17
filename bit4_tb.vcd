@@ -1,0 +1,102 @@
+$date
+	Sun Dec 17 22:57:57 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module First_tb $end
+$var wire 1 ! dig2 $end
+$var wire 1 " dig1 $end
+$var wire 1 # dig0 $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & c $end
+$var reg 1 ' d $end
+$scope module adder $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 & c $end
+$var wire 1 ' d $end
+$var wire 1 # dig0 $end
+$var wire 1 " dig1 $end
+$var wire 1 ! dig2 $end
+$var wire 1 ( u6 $end
+$var wire 1 ) u5 $end
+$var wire 1 * u4 $end
+$var wire 1 + u3 $end
+$var wire 1 , u2 $end
+$var wire 1 - u1 $end
+$var wire 1 . c6 $end
+$var wire 1 / c5 $end
+$var wire 1 0 c4 $end
+$var wire 1 1 c3 $end
+$var wire 1 2 c2 $end
+$var wire 1 3 c1 $end
+$scope module a1 $end
+$var wire 1 3 carry $end
+$var wire 1 $ num1 $end
+$var wire 1 % num2 $end
+$var wire 1 - unit $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 2 carry $end
+$var wire 1 & num1 $end
+$var wire 1 ' num2 $end
+$var wire 1 , unit $end
+$upscope $end
+$scope module a3 $end
+$var wire 1 1 carry $end
+$var wire 1 - num1 $end
+$var wire 1 , num2 $end
+$var wire 1 + unit $end
+$upscope $end
+$scope module a4 $end
+$var wire 1 0 carry $end
+$var wire 1 3 num1 $end
+$var wire 1 2 num2 $end
+$var wire 1 * unit $end
+$upscope $end
+$scope module a5 $end
+$var wire 1 / carry $end
+$var wire 1 * num1 $end
+$var wire 1 1 num2 $end
+$var wire 1 ) unit $end
+$upscope $end
+$scope module a6 $end
+$var wire 1 . carry $end
+$var wire 1 0 num1 $end
+$var wire 1 / num2 $end
+$var wire 1 ( unit $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+13
+12
+01
+10
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+1(
+1'
+1&
+1%
+1$
+0#
+0"
+1!
+$end
+#20

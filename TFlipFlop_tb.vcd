@@ -1,0 +1,46 @@
+$date
+	Sun Dec 17 19:00:19 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module TFlipFlop_tb $end
+$var wire 1 ! out $end
+$var reg 1 " T $end
+$var reg 1 # in $end
+$scope module TFF $end
+$var wire 1 " T $end
+$var wire 1 # in $end
+$var wire 1 ! out $end
+$var reg 1 $ A $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1$
+0#
+1"
+1!
+$end
+#5
+1#
+0"
+#15
+0!
+0$
+1"
+#20
+1!
+1$
+0#
+#25
+0!
+0$
+1#

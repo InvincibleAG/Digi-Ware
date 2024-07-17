@@ -1,0 +1,49 @@
+$date
+	Sun Dec 17 18:46:29 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module JKff_tb $end
+$var wire 1 ! out $end
+$var reg 1 " J $end
+$var reg 1 # K $end
+$var reg 1 $ in $end
+$scope module jkFF $end
+$var wire 1 " J $end
+$var wire 1 # K $end
+$var wire 1 $ in $end
+$var wire 1 ! out $end
+$var reg 1 % place $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1%
+0$
+1#
+1"
+1!
+$end
+#5
+0!
+0%
+1$
+0"
+#10
+0$
+0#
+#15
+1!
+1%
+1"
+#20
+1$
+0"
